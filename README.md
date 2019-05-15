@@ -115,8 +115,8 @@ dashboard :  the component starts with this name has main app dashboard.
 
 **Task Not Done**
 
- 1. Documentation Generate
- 2. Test Cases
+ 1. Documentation Generate ( lack of time because current job, and Ramadan )
+ 2. Test Cases ( lack of time because current job, and Ramadan )
  3. 5 Notification Groups ( It can be easily done by restricting the number of notification in the array of popup notification in store, because the popup-notification are populated by store )
 
 

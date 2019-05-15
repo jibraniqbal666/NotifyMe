@@ -1,0 +1,11 @@
+<div class="notification">
+  <div class="list-group">
+    <ul>
+      <li class="list" *ngFor="let notificationParent of notifications">
+        <app-popup-notification [notificationChild]="notificationParent" (onClose)="onClosePress($event)">
+        </app-popup-notification>
+      </li>
+    </ul>
+  </div>
+
+</div>

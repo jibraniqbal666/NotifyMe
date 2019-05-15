@@ -1,0 +1,9 @@
+<div class="background">
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand " href="#!" *ngIf="(user$ | async) as user"> Welcome {{user.name}}</a>
+  </nav>
+  <app-popup-notification-list></app-popup-notification-list>
+  <div class="row cont-list">
+    <app-notification-list [userChild]="userParent" class="col-lg-6 col-centered"></app-notification-list>
+  </div>
+</div>

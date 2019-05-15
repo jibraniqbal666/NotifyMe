@@ -1,0 +1,15 @@
+<div class="notification kind-{{notificationChild.kind}}">
+  <div class="content">
+    <div class="kind">
+    </div>
+    <div class="content-text">
+      <p class="title">
+        {{ notificationChild.title }}
+      </p>
+      <p class="body">
+        {{ notificationChild.body }}
+      </p>
+    </div>
+    <button (click)="onClosePress()" class="cross kind-{{notificationChild.kind}}">X</button>
+  </div>
+</div>

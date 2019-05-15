@@ -1,0 +1,14 @@
+.notification {
+  width: 30%;
+  text-align: center;
+  border-width: 1%;
+  border-radius: 1%;
+  padding: 1%;
+  position: absolute;
+  top: 5;
+  right: 0;
+  z-index: 2;
+}
+.list {
+  list-style-type: none;
+}

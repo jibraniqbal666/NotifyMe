@@ -1,0 +1,72 @@
+.notification {
+  text-align: center;
+  -webkit-box-shadow: 5px 5px 12px 0px #b9b9b9;
+  box-shadow: 5px 5px 12px 0px #b9b9b9;
+  border-width: 5%;
+  padding: 3%;
+  margin: 3%;
+}
+.kind-warn {
+  background-color: rgb(255, 222, 77);
+}
+
+.kind-info {
+  background-color: rgb(66, 233, 0);
+}
+
+.kind-error {
+  background-color: rgb(255, 89, 89);
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: serif;
+}
+.content-text {
+  color: white;
+  width: 80%;
+  text-align: initial;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.body {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.kind {
+  width: 10%;
+  border: none;
+}
+.cross {
+  width: 10%;
+  border: none;
+  color: white;
+}
+.notification .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
